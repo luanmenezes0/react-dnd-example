@@ -40,7 +40,7 @@ class App extends React.Component {
     });
 
     const { destination, source, draggableId } = result;
-
+    console.log({destination}, {source});
     if (!destination) {
       return;
     }
